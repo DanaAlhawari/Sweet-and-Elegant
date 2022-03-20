@@ -1,0 +1,470 @@
+body {
+  margin: 0px;
+  color: #bd515e;
+}
+
+* {
+  box-sizing: border-box;
+}
+main {
+  width: 90%;
+  margin: 5% auto;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+.beskrivning {
+  text-align: center;
+}
+
+/*HEADER-LOGO-NAV*/
+header {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  border-bottom: 1px solid #f0c7cc;
+  background-color: #fcf5f6;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+h3 {
+  margin-top: 1px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+  color: #bd515e;
+}
+
+nav ul {
+  padding: 5px;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  margin: 0px 25px;
+  font-size: 18px;
+  color: #bd515e;
+  padding: 0px 5px;
+  font-family: "Open Sans", sans-serif;
+}
+nav li a:hover {
+  background-color: #bd515e;
+  color: white;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 896px) {
+  nav ul {
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+  }
+  nav ul a {
+    margin: 0;
+    font-size: 15px;
+  }
+}
+
+/* INDEX SIDA */
+
+.hero img {
+  width: 100%;
+  height: 500px;
+}
+
+.maintext {
+  width: 70%;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.maintext h2 {
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.maintext p {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+}
+.om1 {
+  clear: both;
+  width: 85%;
+  height: auto;
+  margin: 50px auto;
+}
+.om1 img {
+  width: 48%;
+  float: left;
+  border-radius: 4px;
+}
+.om1 p {
+  width: 48%;
+  float: right;
+  line-height: 200%;
+  height: 350px;
+  font-family: "Open Sans", sans-serif;
+}
+.om2 {
+  clear: both;
+  width: 85%;
+  height: auto;
+  margin: 50px auto;
+}
+.om2 img {
+  width: 48%;
+  float: right;
+  border-radius: 4px;
+}
+.om2 p {
+  width: 48%;
+  line-height: 200%;
+  float: left;
+  height: 313px;
+  font-family: "Open Sans", sans-serif;
+}
+.beställ {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin: 10% auto;
+  border: 1px solid #f0c7cc;
+  border-radius: 10px;
+  padding: 16px 0;
+}
+.beställ h2 {
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.beställ p {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+}
+
+.button {
+  background-color: #bd515e;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+
+  color: white;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+.button a:hover {
+  background-color: #bd515e;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+.beställ2 {
+  width: 70%;
+  height: auto;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.beställ2 h2 {
+  letter-spacing: 2px;
+  font-family: "Open Sans", sans-serif;
+}
+.beställ2 p {
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 150%;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+}
+.beställ2 img {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#top {
+  width: 100px;
+  height: 100px;
+  padding: 5px 10px;
+  border: 1px solid #bd515e;
+  background-color: white;
+  border-radius: 100%;
+  color: #bd515e;
+  margin-left: 3%;
+}
+
+@media only screen and (max-width: 896px) {
+  .maintext {
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .om1 img {
+    width: 100%;
+  }
+  .om1 p {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    float: none;
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+  .om2 img {
+    width: 100%;
+  }
+  .om2 p {
+    width: 100%;
+    text-align: center;
+    height: auto;
+    float: none;
+    font-size: 25px;
+    margin-top: 5px;
+    line-height: 150%;
+    letter-spacing: 2px;
+  }
+
+  .beställ2 img {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .beställ p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .beställ2 p {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+/* tårta sida*/
+div.gallery {
+  text-align: center;
+  margin-top: 10%;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+div.desc {
+  padding: 20px 0;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #f0c7cc;
+  border-radius: 10px;
+}
+.gallery {
+  box-sizing: border-box;
+}
+.responsive {
+  height: auto;
+  padding: 0px 58px;
+  float: left;
+  width: 33%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.pris {
+  width: 70%;
+  margin: 10px auto;
+}
+.pris1 {
+  float: left;
+  width: 40%;
+  height: auto;
+  padding: 30px;
+  border: 1px solid #f0c7cc;
+  margin: 10% auto;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.pris2 {
+  float: right;
+  width: 40%;
+  height: auto;
+  padding: 30px;
+  border: 1px solid #f0c7cc;
+  margin: 10% auto;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+@media only screen and (max-width: 896px) {
+  div.gallery {
+    margin-top: auto;
+  }
+  .responsive {
+    width: 70%;
+    height: auto;
+    float: none;
+    margin: 25px auto;
+    padding: 0px 0px;
+  }
+  .clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .pris1 {
+    float: none;
+    width: 100%;
+  }
+  .pris2 {
+    float: none;
+    width: 100%;
+  }
+}
+
+/* cakes sida*/
+.responsive3 {
+  height: auto;
+  padding: 0px 31px;
+  float: left;
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10%;
+}
+@media only screen and (max-width: 896px) {
+  .responsive3 {
+    width: 80%;
+    margin: 25px auto;
+    float: none;
+    padding: 0px 0px;
+  }
+}
+/* beställ sida*/
+
+.input {
+  width: 67%;
+  height: auto;
+  margin: 10% auto;
+  border-radius: 5px;
+  background-color: #fcf5f6;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f0c7cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #f0c7cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.area {
+  height: 200px;
+}
+/* kontakta sida*/
+.contact {
+  width: 50%;
+  margin: auto;
+  padding: 20px 0;
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #f0c7cc;
+  border-radius: 10px;
+}
+.contact > h3 {
+  text-align: center;
+}
+.contact > p {
+  text-align: center;
+}
+/* footer*/
+footer {
+  background-color: #fcf5f6;
+
+  border-top: 1px solid #f0c7cc;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 40px 25px 10px 25px;
+  color: #bd515e;
+}
+.row {
+  margin-left: 150px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.social {
+  text-align: center;
+  color: #bd515e;
+}
+.social i {
+  padding: 0px 10px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+#creativecommons {
+  margin: auto;
+}
+
+span {
+  color: rgb(114, 108, 108);
+}
+@media only screen and (max-width: 896px) {
+  .row {
+    margin-left: 0px;
+  }
+  .row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .column {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+}
